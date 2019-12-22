@@ -26,10 +26,9 @@ body, html {
 
 #loader {
     display: inline-block;
-    width: 15%;
-    height: 15%;
+    width: 22.5%;
+    height: 22.5%;
     position: relative;
-    top: 50%;
 }
 
 /* Page Top/Hero */
