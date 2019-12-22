@@ -1,7 +1,7 @@
 /* Page loading animation */
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('loader'),
-  path: 'data.json',
+  path: 'assets/js/vectors/loader.json',
   renderer: 'svg',
   loop: true,
   autoplay: true
