@@ -1,0 +1,43 @@
+/* © Copyright Jessie Amaral. Code and layouts of this website are provided under a CC BY-SA 4.0 license, and this website's code and layout may be referenced for derivative works thereof provided appropriate credit is given.
+
+Images and animated content on this website may not necessarily fall under this same CC BY-SA 4.0 License and licensing of animated content or images does not fall under a Creative Commons license (unless directly stated otherwise.) */
+
+body, html {
+    background-color: #fafafa;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom right, #46e383, #b481e6);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-header {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+}
+
+#subhero {
+    color: white;
+    font-size: 13px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
