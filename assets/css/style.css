@@ -33,7 +33,7 @@ body, html {
 
 /* Page Top/Hero */
 .hero {
-    background-image: linear-gradient(to bottom right, #46e383, #b481e6);
+    background-image: linear-gradient(to bottom right, #564a5f, #783661);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body, html {
 
 #subhero {
     color: white;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 p {
