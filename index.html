@@ -9,10 +9,10 @@ Images and animated content on this website may not necessarily fall under this 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
 <!-- Basic Includes -->
-        <script src="https://kit.fontawesome.com/409ae6b872.js" crossorigin="anonymous"></script>
-        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="//kit.fontawesome.com/409ae6b872.js" crossorigin="anonymous"></script>
+        <script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     
 <!-- Page Title -->
@@ -32,14 +32,14 @@ Images and animated content on this website may not necessarily fall under this 
     <body>
         <div class="hero">
             <div class="hero-header">
-                <h1><b><a href="file:///Users/jess/Desktop/CoreLocus/index.html">CoreLocus</a></b></h1>
+                <h1><b><a href="index.html">CoreLocus</a></b></h1>
                 <h2 id="subhero"></h2>
             </div>
         </div>
         
 <!-- Page Preloader + Jquery Transitions -->
         <div class="loadwrapper">
-            <div id="loader">test</div>
+            <div id="loader"></div>
         </div>
         
         <script>
@@ -49,7 +49,9 @@ Images and animated content on this website may not necessarily fall under this 
             })
         </script>
         <script>
-            /* This script checks for when a user has clicked on a link. If the link isn't an on-page scroll, the the redirect is delayed and the loader fades back in. */
+            /* This script checks for when a user has clicked on a link. If the link isn't an on-page scroll, the the redirect is delayed and the loader fades back in.
+            
+            NU is the captured URL of the href the user clicked on. */
             $(document).on("click", "a", function(){
                 var NU = $(this).attr("href");
                 if (!NU || NU[0] === "#") {
