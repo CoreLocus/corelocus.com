@@ -28,7 +28,7 @@ body, html {
     display: inline-block;
     width: 22.5%;
     height: 22.5%;
-    position: relative;
+    position: absolute;
 }
 
 /* Page Top/Hero */
