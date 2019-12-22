@@ -19,6 +19,9 @@ body, html {
     left: 0;
     background-color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #loader {
@@ -27,7 +30,6 @@ body, html {
     height: 15%;
     position: relative;
     top: 50%;
-    align-self: center;
 }
 
 /* Page Top/Hero */
