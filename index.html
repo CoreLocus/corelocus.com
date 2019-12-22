@@ -32,12 +32,38 @@ Images and animated content on this website may not necessarily fall under this 
     <body>
         <div class="hero">
             <div class="hero-header">
-                <div id="lottie"></div>
-                <h1><b>CoreLocus</b></h1>
+                <h1><b><a href="file:///Users/jess/Desktop/CoreLocus/index.html">CoreLocus</a></b></h1>
                 <h2 id="subhero"></h2>
             </div>
         </div>
         
+<!-- Page Preloader + Jquery Transitions -->
+        <div class="loadwrapper">
+            <div id="loader">test</div>
+        </div>
+        
+        <script>
+            /* This script checks for when page has loaded, once loaded the loadwrapper div fades. */
+            $(window).on("load",function(){
+                $(".loadwrapper").fadeOut("slow");
+            })
+        </script>
+        <script>
+            /* This script checks for when a user has clicked on a link. If the link isn't an on-page scroll, the the redirect is delayed and the loader fades back in. */
+            $(document).on("click", "a", function(){
+                var NU = $(this).attr("href");
+                if (!NU || NU[0] === "#") {
+                    location.hash = NU;
+                    return;
+                }
+            $(".loadwrapper").fadeIn("slow", function(){
+                location = NU;
+            })
+                return false;
+            })
+        </script>
+
+<!-- Animation Scripts -->
         <script src="lottie.js" type="text/javascript"></script>
         <script src="glyphs.js" type="text/javascript"></script>
         </body>
