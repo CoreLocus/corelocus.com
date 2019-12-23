@@ -16,6 +16,7 @@ a {
     text-decoration: none;
 }
 
+/* Page Loader */
 .loadwrapper {
     width: 100%;
     height: 100%;
@@ -35,6 +36,38 @@ a {
     height: 22.5%;
     position: absolute;
 }
+
+/* Page Top Nav */
+.navbar-clear {
+    position: fixed;
+    overflow: hidden;
+    z-index: -150;
+}
+
+.navbar-clear img {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar-clear a {
+    float: center;
+    display: block;
+    text-align: center;
+    padding: 22px 26px;
+    text-decoration: none;
+}
+
+.navbar-clear a.active {
+  background-color: white;
+  color: #564a5f;
+}
+
+.navbar-clear .icon {
+  display: none;
+}
+
 
 /* Page Top/Hero */
 .hero {
