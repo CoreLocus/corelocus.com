@@ -39,7 +39,7 @@ a {
 
 /* Page Top Nav */
 .navbar-clear {
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     z-index: -150;
 }
