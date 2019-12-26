@@ -36,19 +36,21 @@ Images and animated content on this website may not necessarily fall under this 
             <div class="navbar">
                 <img class="navbarlogo" src="assets/svg/logo-outlined-light.svg" height="60px" width="60px"/>
                 
-                <!-- Text Links -->
-                <a class="navbartext" href="index.html">Home</a>
-                <a class="navbartext" href="index.html">Blog</a>
-                <a class="navbartext" href="index.html">Commissions</a>
-                <a class="navbartext" href="index.html">About</a>
-                <a class="navbartext" href="index.html">Contact</a>
+    <!-- Text Links -->
+            <!-- Active Link -->
+                <a class="navbartext-active" href="index.html">Home</a>
                 
-                <!-- Dropdown -->
+                <a class="navbartext" href="index.html">Blog</a>
+                <a class="navbartext" href="commissions/">Commissions</a>
+                <a class="navbartext" href="about/">About</a>
+                <a class="navbartext" href="contact/">Contact</a>
+                
+    <!-- Dropdown -->
                 <a class="socialdrop" href="#">
                     <i class="fas fa-chevron-circle-down fa-2x"></i>
                 </a>  
                 
-                <!-- Social Media Links -->
+    <!-- Social Media Links -->
                 <a class="social" href="https://deviantart.com/corelocus">
                     <i class="fab fa-deviantart"></i>
                 </a>
@@ -67,6 +69,12 @@ Images and animated content on this website may not necessarily fall under this 
                 <a class="social" href="https://twitter.com/corelocus">
                     <i class="fab fa-twitter"></i>
                 </a>
+                
+    <!-- Responsive Hamburger Menu (Mobile) -->
+                <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                
             </div>
         </div>
         
@@ -74,7 +82,7 @@ Images and animated content on this website may not necessarily fall under this 
         <div class="intro">
             <div class="hero-header">
                 <h1><b>Motion. Music. More.</b></h1>
-                <p id="subhero">Design is more than a tool, and I've dedicated my passion to the art of it.<br><br></p>
+                <p id="subhero">Design is more than a tool, and I've dedicated my passion to the art of it. This site is a work in progress, check back soon!<br><br></p>
             </div>
             <div class="coveranim" id="coveranim"></div>
         </div>
@@ -112,5 +120,12 @@ Images and animated content on this website may not necessarily fall under this 
         <script src="assets/js/cover.js" type="text/javascript"></script>
         <script src="assets/js/loader.js" type="text/javascript"></script>
         </body>
+    
+<!-- Extra Scripts -->
+        <script>
+            $('.navbarlogo').bind('contextmenu', function(e) {
+                return false;
+            }); 
+        </script>
 </html>
 
