@@ -128,11 +128,10 @@ a {
 }
 
 .intro {
-    height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: fixed;
     min-height: 700px
     z-index: 0;
 }
