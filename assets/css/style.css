@@ -139,7 +139,7 @@ a {
 .hero-header {
     color: white;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -15%);
