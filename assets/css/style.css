@@ -73,6 +73,13 @@ a {
     border-radius: 10px;
 }
 
+.social {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
 .navbartext:hover {
     background-color: white;
     color: #564a5f;
