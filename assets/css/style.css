@@ -8,7 +8,6 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
     background-color: #333;
 }
 
@@ -71,6 +70,7 @@ a {
     font-size: 15px;
     padding: 0px 6px;
     border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .social {
@@ -78,6 +78,7 @@ a {
     float: right;
     vertical-align: middle;
     line-height: 50px;
+    font-family: FontAwesome;
 }
 
 .navbartext:hover {
@@ -125,6 +126,7 @@ a {
     line-height: 45px;
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #subhero {
@@ -133,9 +135,9 @@ a {
     font-size: 13px;
     top: -25px;
     line-height: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
-    font-family: verdana;
     font-size: 20px;
 }
