@@ -160,6 +160,12 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+#coveranim {
+    position: relative;
+    top: -25px;
+    width: 1500px;
+}
+
 p {
     font-size: 20px;
 }
