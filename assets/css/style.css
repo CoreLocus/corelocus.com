@@ -142,7 +142,7 @@ a {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -15%);
     font-size: 20px;
     line-height: 45px;
     padding: 0;
@@ -161,7 +161,6 @@ a {
 
 #coveranim {
     position: relative;
-    top: 0px;
     width: 1500px;
 }
 
