@@ -160,8 +160,8 @@ a {
 }
 
 #coveranim {
-    position: relative;
-    top: -50%;
+    position: fixed;
+    top: -25px;
     width: 1500px;
 }
 
