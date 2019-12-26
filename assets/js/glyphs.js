@@ -9,7 +9,7 @@ var animation = bodymovin.loadAnimation({
 })
 
 /* Cover Animation */
-var animation = bodymovin.loadAnimation({
+var animation2 = bodymovin.loadAnimation({
   container: document.getElementById('coveranim'),
     /* Note: Paths are handled at the page level. This is why the path references the parent assets folder */
   path: 'assets/js/vectors/homepage-cover.json',
