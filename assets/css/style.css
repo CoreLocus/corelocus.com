@@ -168,6 +168,7 @@ a {
     line-height: 0px;
     z-index: 10;
     overflow-x: hidden;
+    max-width: 80%
 }
 
 #subhero {
